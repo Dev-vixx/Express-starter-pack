@@ -16,7 +16,7 @@ app.use(logger)
 app.use(express.static(path.join(__dirname, "public")))
 
 // middleware for members api
-app.use("/api/members", require("./route/api/Members"))
+app.use("/api", require("./route/api/Members"))
 
 
 
