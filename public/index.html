@@ -7,6 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    hello
+   <ul>
+
+   </ul>
+
+
+   <script>
+       fetch("/api/members")
+       .then(res => res.json())
+       .then(data => {
+           document.querySelector("ul").innerHTML = `${data.map(member =>
+            {
+                return `<li> ${member.name}</li>`;
+            }).join("")}`
+       })
+   </script>
 </body>
 </html>
