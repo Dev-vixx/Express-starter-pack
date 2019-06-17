@@ -16,7 +16,7 @@ let members = [
         email: "best@akuma.com"
     },
     {
-        id: 1,
+        id: uuid.v4(),
         name: "newton ben",
         email: "best@akuma.com"
     }
