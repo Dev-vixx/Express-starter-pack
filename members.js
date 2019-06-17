@@ -15,6 +15,11 @@ let members = [
         name: "newton ben",
         email: "best@akuma.com"
     },
+    {
+        id: 1,
+        name: "newton ben",
+        email: "best@akuma.com"
+    }
 ]
 
 
